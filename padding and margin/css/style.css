@@ -97,3 +97,24 @@ img.section_image{
   padding: 15px;
   width: 500px;
 }
+
+/* Block indents and sizes. box-sizing property */
+
+.section_item_size{
+  width: 500px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* Padding and background */
+
+.section_item_background_color{
+  margin: 15px;
+  padding: 15px;
+}
+
+.section_item_background_image{
+  color: rgb(177, 177, 177);
+  padding: 0px 0px 0px 50px;
+  background: url("../img/pexels.jpg") 0 0px / 33px no-repeat;
+}
