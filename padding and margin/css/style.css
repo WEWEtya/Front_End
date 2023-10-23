@@ -118,3 +118,45 @@ img.section_image{
   padding: 0px 0px 0px 50px;
   background: url("../img/pexels.jpg") 0 0px / 33px no-repeat;
 }
+
+/* Indentation and positioning */
+
+.section_item_position{
+  position: relative;
+  color: rgb(177, 177, 177);
+  padding: 0px 0px 0px 50px;
+}
+
+.section_item_position::before{
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  content:"";
+}
+
+/* Padding and overflow: hidden; */
+
+.section_block_hidden{
+  overflow: hidden;
+  padding: 25px;
+}
+
+.section_item_hidden{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #d9f5c8;
+}
+
+/* Block alignment */
+
+.section_item_center{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0px auto;
+}
