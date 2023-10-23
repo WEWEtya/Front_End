@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+	<!-- Page title, container for other important data (not displayed) -->
+	<head>
+		<!-- Title of the page in the browser -->
+		<title>CSS transform</title>
+		<!-- Connecting CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- Page encoding -->
+		<meta charset="UTF-8">
+		<!-- Adaptive -->
+		<meta name="viewport" content="width=device-width">
+		<link rel="shortcut icon" href="favicon.ico" />
+	</head>
+	<!-- Page display body -->
+	<body>
+		<!-- Wrapper for demonstration -->
+		<div class="wrapper">
+			<div class="content">
+				<h1>CSS Transform</h1>
+				<h2>Transform in 2D</h2> <br>
+				<div class="content_2D">
+					<section class="content_block">
+						<h2>Translate (x, y)</h2>
+						<div class="content_translate">translate</div>
+						<p><strong>translate</strong> - shifts an element to a new location, moving it relative to the original position of the object to the right and down, using X and Y coordinates. It is written as follows: translate (x,y);</p>
+					</section>
+					<section class="content_block">
+						<h2>Scale (x, y)</h2>
+						<div class="content_scale">scale</div>
+						<p><strong>scale</strong> - scales elements, making them larger or smaller. By default, values are specified as one (1) - this is the actual size of the object. The first value scales the element in width, the second - in height. Negative values display the element in a mirror manner.</p>
+					</section>
+					<section class="content_block">
+						<h2>Rotate (angle + deg)</h2>
+						<div class="content_rotate">rotate</div>
+						<p><strong>rotate</strong> - rotate - rotates the elements by the specified number of degrees, negative values rotate the element counterclockwise, positive values rotate the element clockwise. Values are recorded as degrees of rotation and degrees</p>
+					</section>
+					<section class="content_block">
+						<h2>Skew (x - angle + deg, y - angles + deg)</h2>
+						<div class="content_skew ">skew</div>
+						<p><strong>Skew</strong> - deforms (distorts) the sides of an object relative to the coordinate axes. If one value is specified, the second will be determined automatically by the browser. Values are recorded as degree of rotation and deg</p>
+					</section>
+					<section class="content_block">
+						<h2>Matrix (a, b, c, d, x, y)</h2>
+						<div class="content_matrix ">matrix</div>
+						<p><strong>Matrix (a, b, c, d, x, y)</strong> - allows you to combine several 2D transformation functions in one. As a transformation, rotation, scaling, tilting (deformation) and repositioning are allowed. Properties are indicated without units of measurement.</p>
+					</section>
+					<section class="content_block">
+						<h2>Multiple 2D transformations</h2>
+						<div class="content_multiple">translate scale rotate</div>
+						<p><strong></strong>This can also be achieved using multiple transformations. Namely, write several values into one transform property.</p>
+					</section>
+					<section class="content_block">
+						<h2>Transform-origin</h2>
+						<div class="content_transform-origin">transform-origin</div>
+						<p><strong>Transform-origin</strong> - allows you to shift the transformation center, relative to which the position/size/shape of the element changes</p>
+					</section>
+				</div>
+					<h2>Transform in 3D </h2> <br>
+				<div class="content_3d">
+					<section class="content_block">
+						<h2>Perspective, perspective-origin</h2>
+						<div class="content_wrapper3d">
+							<div class="content_perspective">
+								perspective, perspective-origin
+							</div>
+						</div>
+						<p><strong>perspective, perspective-origin</strong> - 	setting the depth and changing the origin point</p>
+					</section>
+					<section class="content_block">
+						<h2>Translate3D (x, y, z)</h2>
+						<div class="content_wrapper3d">
+							<div class="content_translate3d">
+								translate3D
+							</div>
+						</div>
+						<p><strong>Translate3D</strong> - by analogy with its 2D brother, this value specifies the movement of the element, but in 3D space. In addition to the X and Y axis, a Z axis is added.</p>
+					</section>
+					<section class="content_block">
+						<h2>Scale3D (x, y, z)</h2>
+						<div class="content_wrapper3d">
+							<div class="content_scale3d">
+								scale3d
+							</div>
+						</div>
+						<p><strong>Scale3d (x, y, z)</strong> - sets three-dimensional scaling along one of the X, Y, Z axes</p>
+					</section>
+					<section class="content_block">
+						<h2>Rotate3D (x, y, z, deg)</h2>
+						<div class="content_wrapper3d">
+							<div class="content_rotate3d">
+								rotate3d
+							</div>
+						</div>
+						<p><strong>rotate3d</strong> - rotates an element about three axes. The element is rotated at the angle specified by the last parameter relative to the direction vector X, Y, Z</p>
+					</section>
+					<section class="content_block">
+						<h2>Matrix3D (n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n)</h2>
+						<div class="content_wrapper3d">
+							<div class="content_matrix3d">
+								matrix3d
+							</div>
+						</div>
+						<p><strong>Matrix3D</strong> - specifies the 3D transform as a uniform 4x4 matrix with sixteen column values</p>
+					</section>
+					<section class="content_block">
+						<h2>Multiple 3D transformations</h2>
+						<div class="content_wrapper3d">
+							<div class="content_multiple3d">
+								TRANSLATE3D ROTATE3D
+							</div>
+						</div>
+						<p><strong></strong> - Writing multiple 3D values to one transform property.</p>
+					</section>
+					<section class="content_block">
+						<h2>Transform-Style</h2>
+						<div class="content_transform-style_wrapper">
+								<div class="content_transform-style">
+									transform style
+								</div>
+						</div>
+						<p><strong>transform style</strong> - sets the transformation style</p>
+					</section>
+					<section class="content_block">
+						<h2>Backface-visibility</h2>
+						<div class="flip">
+								<div class="flip_body">
+									<div class="flip_front">
+									Font
+								</div>
+									<div class="flip_back">
+									Back
+								</div>
+								</div>
+						</div>
+						<p><strong>Flip</strong> - The property determines whether the back side of the element is visible to the user.</p>
+					</section>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
