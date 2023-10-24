@@ -186,3 +186,26 @@ img.section_image{
 .section_item_flex{
   padding: 15px;
 }
+
+/* Combination with padding */
+
+.slider{
+  display: flex;
+  overflow: hidden;
+  margin: -25px 0;
+  padding: 25px;
+}
+
+.slider_item{
+  text-align: center;
+  flex: 0 1 33.333%;
+}
+
+.slider_image{
+  width: 150px;
+  height: 150px;
+  margin: 0px auto;
+  border-radius: 50%;
+  background-color: #7a956b;
+  box-shadow: 0 0 20px #d9f5c8;
+}
