@@ -355,3 +355,13 @@ ease of use and perception
 .compare_title_bad{
   margin: 0px 0px 40px 0px;
 }
+
+.compare_link{
+  display: inline-block;
+  padding: 5px;
+  line-height: 10px;
+}
+
+.compare_link_bad{
+  padding: 0;
+}
