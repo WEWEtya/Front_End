@@ -237,3 +237,41 @@ from previous element to next */
   padding: 15px;
   margin: 0px 20px 0px 0px;
 }
+
+/* For the last element of a group,
+ the indentation should be zeroed */
+
+ .section_body_last{
+   background-color: #77608d;
+   padding: 20px 50px;
+ }
+
+ .section_list li{
+   margin: 0px 0px 10px 0px;
+ }
+
+/*
+You can set the indents yourself
+to the upper parent in the structure (house)
+
+!!! In this way you can
+avoid problems with indentations
+with background fill
+*/
+
+ .section_body_parent{
+   background-color: #7a956b;
+   padding: 50px 50px;
+ }
+
+ .section_list{
+ }
+
+ .section_item_parent{
+   margin: 0px 0px 20px 0px;
+   /* Even if you set an indent there will be a problem */
+ }
+
+ .section_item_parent:last-child{
+  margin: 0;
+ }
