@@ -241,14 +241,14 @@ from previous element to next */
 /* For the last element of a group,
  the indentation should be zeroed */
 
- .section_body_last{
-   background-color: #77608d;
-   padding: 20px 50px;
- }
+.section_body_last{
+  background-color: #77608d;
+  padding: 20px 50px;
+}
 
- .section_list li{
-   margin: 0px 0px 10px 0px;
- }
+.section_list li{
+  margin: 0px 0px 10px 0px;
+}
 
 /*
 You can set the indents yourself
@@ -259,19 +259,56 @@ avoid problems with indentations
 with background fill
 */
 
- .section_body_parent{
-   background-color: #7a956b;
-   padding: 50px 50px;
- }
+.section_body_parent{
+  background-color: #7a956b;
+  padding: 50px 50px;
+  margin: 40px 0px 40px 0px;
+}
 
- .section_list{
- }
+.section_list{
+}
 
- .section_item_parent{
-   margin: 0px 0px 20px 0px;
-   /* Even if you set an indent there will be a problem */
- }
+.section_item_parent{
+  margin: 0px 0px 20px 0px;
+  /* Even if you set an indent there will be a problem */
+}
 
- .section_item_parent:last-child{
+.section_item_parent:last-child{
   margin: 0;
- }
+}
+
+/*
+Margins should not be specified
+for independent elements (BEM block)
+*/
+
+.portfolio{
+  background-color: #794f45;
+  padding: 30px 15px;
+}
+
+.portfolio_header{
+  margin: 0px 0px 40px 0px;
+}
+
+.contacts{
+  background-color: #77608d;
+  padding: 30px 15px;
+}
+
+.contacts_header{
+  margin: 0px 0px 40px 0px;
+}
+
+.header{
+  text-align: center;
+}
+
+.header_title{
+  font-size: 30px;
+  margin: 0px 0px 5px 0px;
+}
+
+.header_text{
+  font-size: 20px;
+}
