@@ -153,6 +153,29 @@
 						</div>
 					</div>
 				</section>
+				<!-- Margin Collapse -->
+				<section class="section">
+					<h2>Margin Collapse</h2>
+					<p>When vertical outer margins meet, they collapse.</p>
+					<div class="section_item section_item_color_1 section_item_collapse">
+						Object №1 Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Doloribus, labore amet consequuntur possimus dignissimos debitis
+					</div>
+					<div class="section_item section_item_color_2 section_item_collapse section_item_collapse_top">
+						Object №2 Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Doloribus, labore amet consequuntur possimus dignissimos debitis
+					</div>
+					<div class="section_item section_item_color_3 section_item_collapse">
+						Object №3 Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Doloribus, labore amet consequuntur possimus dignissimos debitis
+					</div>
+					<p>
+						<ul class="section_list">
+							<li>When both margin values are positive, the resulting margin size will be equal to the larger value.</li>
+							<li>If one of the values is negative, then to calculate the size of the field you need to get the sum of the values.</li>
+							<li>If both values are negative, the moduli of these numbers are compared and the number with the larger modulus is selected</li>
+							<li>In the case where the values are specified in different CSS units, they are converted to one, after which they are compared and the larger value is selected.</li>
+							<li>If a child has a larger margin than its parent, then priority is given to it. In this case, the sizes of the top and bottom margins of the parent will be the same as those specified for the child. In this case, there will be no distance between parent and child.</li>
+						</ul>
+					</p>
+				</section>
 			</div>
 		</div>
 	</body>

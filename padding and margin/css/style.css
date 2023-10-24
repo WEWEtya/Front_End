@@ -209,3 +209,14 @@ img.section_image{
   background-color: #7a956b;
   box-shadow: 0 0 20px #d9f5c8;
 }
+
+/* Margin Collapse */
+
+.section_item_collapse{
+  padding: 15px;
+  margin: 0px 0px 20px 0px;
+}
+
+.section_item_collapse_top {
+  margin: -10px 0px 20px 0px;
+}
