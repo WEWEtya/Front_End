@@ -160,3 +160,29 @@ img.section_image{
   border-radius: 50%;
   margin: 0px auto;
 }
+
+/* Negative Margin values */
+
+.section_item_minus{
+  padding: 15px;
+}
+
+.section_item_minus_top{
+  position: relative;
+  z-index: 2;
+  margin: -50px 0px 0px 0px; /* Object №1 disappeared */
+}
+
+.section_row{
+  display: flex;
+  margin: 0px -15px;
+}
+
+.section_column{
+  padding: 0px 15px;
+  flex: 0 1 33.333%;
+}
+
+.section_item_flex{
+  padding: 15px;
+}
