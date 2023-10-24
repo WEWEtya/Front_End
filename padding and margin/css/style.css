@@ -312,3 +312,46 @@ for independent elements (BEM block)
 .header_text{
   font-size: 20px;
 }
+
+/*
+Indentation should improve
+ease of use and perception
+*/
+
+.compare{
+}
+
+.compare_row{
+  display: flex;
+  margin: 0px -15px 30px;
+}
+
+.compare_column{
+  padding: 0px 15px;
+  flex: 0 1 50%;
+}
+
+.compare_item{
+  padding: 20px 15px;
+}
+
+.compare_item_bad{
+  padding: 80px 15px;
+}
+
+.compare_item_color_1{
+  background-color: #794f45;
+}
+
+.compare_item_color_2{
+  background-color: #7a956b;
+}
+
+.compare_title{
+  font-size: 30px;
+  margin: 0px 0px 10px 0px;
+}
+
+.compare_title_bad{
+  margin: 0px 0px 40px 0px;
+}
