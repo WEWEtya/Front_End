@@ -41,7 +41,7 @@ html,body {
 }
 
 .grid_body_3{
-  /* Minmax in grid */
+  /* Minmax */
   display: grid;
   grid-template-columns: 200px minmax(150px, 1fr) 200px;
   grid-template-rows: 1fr 1fr;
@@ -57,9 +57,17 @@ html,body {
 }
 
 .grid_body_5{
-  /* Text in grid */
+  /* Fit-conent */
   display: grid;
   grid-template-columns: fit-content(400px) 1fr auto;
   grid-template-rows: 1fr 1fr;
+  padding: 30px;
+}
+
+.grid_body_6{
+  /* Repeat */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
   padding: 30px;
 }
