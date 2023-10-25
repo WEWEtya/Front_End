@@ -58,6 +58,7 @@ html,body {
 
 .grid_body_5{
   /* Fit-conent */
+
   display: grid;
   grid-template-columns: fit-content(400px) 1fr auto;
   grid-template-rows: 1fr 1fr;
@@ -67,7 +68,43 @@ html,body {
 .grid_body_6{
   /* Repeat */
   display: grid;
+
+  /*
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  */
+
+  /* Can be used grid-template, nothing changed */
+  grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+
   padding: 30px;
+}
+
+/* Area names */
+
+.grid_wrapper{
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 100px 1fr;
+  grid-template-areas: 
+    "header header" 
+    "side content";
+}
+
+.grid_header, .grid_side, .grid_content {
+  padding: 30px;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  margin: 0px 0px 15px 0px;
+}
+
+.grid_header {
+  grid-area: header;
+}
+
+.grid_side {
+  grid-area: side;
+}
+
+.grid_content {
+  grid-area: content;
 }
