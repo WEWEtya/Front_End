@@ -84,11 +84,18 @@ html,body {
 
 .grid_wrapper{
   display: grid;
+
+  grid-template: [start] "header header" 100px [row2]
+                 [row2] "side content" 1fr [row-end] / 150px 1fr
+
+  /*
   grid-template-columns: 150px 1fr;
   grid-template-rows: 100px 1fr;
   grid-template-areas: 
     "header header" 
     "side content";
+  */
+
 }
 
 .grid_header, .grid_side, .grid_content {
