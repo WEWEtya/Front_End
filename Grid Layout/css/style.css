@@ -41,9 +41,17 @@ html,body {
 }
 
 .grid_body_3{
-  /* Minmax with grid */
+  /* Minmax in grid */
   display: grid;
   grid-template-columns: 200px minmax(150px, 1fr) 200px;
   grid-template-rows: 1fr 1fr;
+  padding: 30px;
+}
+
+.grid_body_4{
+  /* Text in grid */
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  grid-template-rows: 1fr auto;
   padding: 30px;
 }
