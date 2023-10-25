@@ -12,3 +12,21 @@ html,body {
   color: #fff;
   font-size: 16px;
 }
+
+/* Main Styles */
+
+.content{
+  position: relative;
+}
+
+.grid_body{
+  display: grid;
+  grid-template-columns: 200px 150px 20%;
+  grid-template-rows: 50% 300px;
+}
+
+.grid_item{
+  text-align: center;
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  padding: 30px;
+}
