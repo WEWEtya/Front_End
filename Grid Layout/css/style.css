@@ -52,6 +52,14 @@ html,body {
   /* Text in grid */
   display: grid;
   grid-template-columns: auto 1fr auto;
-  grid-template-rows: 1fr auto;
+  grid-template-rows: 1fr 1fr;
+  padding: 30px;
+}
+
+.grid_body_5{
+  /* Text in grid */
+  display: grid;
+  grid-template-columns: fit-content(400px) 1fr auto;
+  grid-template-rows: 1fr 1fr;
   padding: 30px;
 }
