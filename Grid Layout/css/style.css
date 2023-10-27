@@ -36,6 +36,7 @@ html,body {
   text-align: center;
   border: 2px dashed rgba(255, 255, 255, 0.2);
   padding: 30px;
+  font-size: 30px;
 }
 
 .grid_body_2{
@@ -145,7 +146,10 @@ html,body {
   display: grid;
   grid-template: repeat(2, 1fr) / repeat(3, 1fr);
   padding: 30px;
-}
+
+  row-gap: 20px;
+  column-gap: 20px;
+} 
 
 .grid_item-8 {
   text-align: center;
@@ -188,6 +192,39 @@ html,body {
 }
 
 .grid_item_6 {
-  
 }
 
+/* Alignment of grid elements */
+
+.grid_body_9 {
+  display: grid;
+  grid-template-rows: [start] 150px [row2] 150px [row-end];
+  grid-template-columns: [start] 1fr [col2] 1fr [col3] 1fr [col-end];
+
+  justify-items: start;
+  align-items: end;
+
+  padding: 30px;
+}
+
+.grid_item_7{
+  align-self: stretch;
+  justify-self: stretch;
+}
+
+.grid_item_8 {
+  align-self: end;
+  justify-self: end;
+}
+.grid_item_9 {
+
+}
+.grid_item_10 {
+  margin: auto;
+}
+.grid_item_11 {
+
+}
+.grid_item_12 {
+
+}
