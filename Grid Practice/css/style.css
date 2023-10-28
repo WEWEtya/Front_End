@@ -67,10 +67,16 @@ html,body {
 
 .main {
   grid-area: main;
+  padding: 30px 15px;
+  display: grid;
+  grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr;
+
 }
 
 .sidebar {
-
+  grid-column: 2 / 3;
+  background-color: #7a956b;
+  padding: 30px 15px;
 }
 
 .sidebar_menu {
@@ -81,12 +87,18 @@ html,body {
 
 }
 
-.sidebar_link {
+.sidebar_list li {
+  margin: 0px 0px 15px 0px;
+}
 
+.sidebar_link {
+  color: #fff;
+  font-size: 20px;
 }
 
 .content {
-
+  grid-column: 3 / 4;
+  padding: 0px 0px 0px 30px;
 }
 
 .content_title {
