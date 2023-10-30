@@ -2,7 +2,7 @@
 	<!-- Page title, container for other important data (not displayed) -->
 	<head>
 		<!-- Title of the page in the browser -->
-		<title>Padding and Margin</title>
+		<title>Video & sound</title>
 		<!-- Connecting CSS -->
 		<link rel="stylesheet" href="css/style.css">
 		<!-- Page encoding -->
@@ -13,6 +13,13 @@
 	</head>
 	<!-- Page display body -->
 	<body>
-		
+		<div class="wrapper">
+			<div class="video">
+				<video preload="none" loop muted poster="img/earth.jpg" controls class="video_item">
+					<source src="video/Earth.webm" type="video/webm">
+					<source src="video/Forest.mp4" type="video/mp4">
+				</video>
+			</div>
+		</div>
 	</body>
 </html>
