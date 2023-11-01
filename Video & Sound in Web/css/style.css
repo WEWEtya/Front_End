@@ -48,10 +48,11 @@ html,body {
 .item_video {
   position: relative;
   margin: 0px 0px 15px 0px;
-  aspect-ratio: 16 / 9;
+  padding: 0px 0px 56% 0px;
 }
 
 .item_video video {
+  object-fit: cover;
   position: absolute;
   top: 0;
   left: 0;
