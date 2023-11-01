@@ -25,6 +25,8 @@ html,body {
 
 /* Main Styles */
 
+/* Styles for video */
+
 .items {
 
 }
@@ -65,3 +67,62 @@ html,body {
   font-size: 18px;
   line-height: 150%;
 }
+
+/* Styles for full-screen video */
+
+.full-screen {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.full-screen_body {
+  padding: 50px 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex: 1 1 auto;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+}
+
+.full-screen_title {
+  font-size: 50px;
+  letter-spacing: 25px;
+  font-weight: 700;
+  margin: 0px 0px 20px 0px;
+}
+
+.full-screen_text {
+  font-size: 18px;
+  letter-spacing: 15px;
+}
+
+.full-screen_video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  background-color: #794f45;
+}
+
+.content_container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.content_container p {
+  margin: 0px 0px 20px 0px;
+}
+
