@@ -66,15 +66,17 @@ h6 {
   position: relative;
 }
 
-.example_container:before {
-  content: "";
-  background: url("../img/decor.svg") 0 0 / 100% no-repeat;
-  position: absolute;
-  right: 0;
-  width: 14.57%;
-  padding-top: 22.95%;
-  top: 50%;
-  transform: translate(50%, -50%);
+@media(min-width: 48em){
+  .example_container:before {
+   content: "";
+   background: url("../img/decor.svg") 0 0 / 100% no-repeat;
+    position: absolute;
+    right: 0;
+    width: 14.57%;
+    padding-top: 22.95%;
+    top: 50%;
+    transform: translate(50%, -50%);
+  }
 }
 
 /* Title */
@@ -101,6 +103,12 @@ h6 {
   line-height: 1.19;
   margin: 0px 0px 0.38em 0px;
   letter-spacing: 0.12em;
+}
+
+@media(max-width: 48em){
+  .example_title {
+    font-size: 2rem;
+  }
 }
 
 /* Text */
@@ -136,7 +144,6 @@ h6 {
 }
 
 .item-example_body {
-
 }
 
 .item-example_title {
