@@ -103,9 +103,13 @@ h6 {
   letter-spacing: 0.12em;
 }
 
-.example_text {
+/* Text */
 
+.example_text {
+  line-height: 1.5;
 }
+
+/* Card structure */
 
 .example_items {
 
@@ -115,12 +119,15 @@ h6 {
 
 }
 
-.item-example {
+/* Cards */
 
+.item-example {
+  display: flex;
+  column-gap: 23px;
 }
 
 .item-example_icon {
-
+  flex: 0 0 63px;
 }
 
 .item-example_body {
@@ -128,9 +135,12 @@ h6 {
 }
 
 .item-example_title {
-
+  color: #f2726f;
+  font-weight: 900;
+  font-size: 1.5em;
+  margin: 0px 0px 0.45em 0px;
 }
 
 .item-example_text {
-
+  line-height: 1.5;
 }
