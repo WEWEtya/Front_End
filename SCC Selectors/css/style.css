@@ -10,12 +10,8 @@ html,body {
 
 /* ---------------------------- */
 
-/* And we can highlight separately child of block like "b" in "span" 
-*/
-span > b{
-  background: red;
-}
 
-li.red ~ li{
+div.red::after{
+  content: 'After';
   background: red;
 }
