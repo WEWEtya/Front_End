@@ -1,10 +1,4 @@
 /* Null */
-*,*:before,*:after {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  box-sizing: border-box;
-}
 html,body {
   height: 100%;
   background-color: #333;
@@ -13,14 +7,22 @@ html,body {
   font-size: 16px;
 }
 
-.wrapper {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
 
-  justify-content: center;
-  align-items: center; 
-}
 /* ---------------------------- */
 
-/* Main Styles */
+/* Selector * - using all what you type in CSS to all what you have in HTML*/
+div{
+  background: red;
+}
+
+span{
+  background: blue;
+}
+
+ul{
+  background: green;
+}
+
+li{
+  background: yellow;
+}
