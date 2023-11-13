@@ -10,8 +10,21 @@ html,body {
 
 /* ---------------------------- */
 
-
-div.red::after{
-  content: 'After';
+[data-red="true"]{
   background: red;
+}
+
+/* symbol ^ means if "data-green" will have mathing numbers on start its gonna be color green, even if we have "data-green=123" in html */
+[data-green^="12"]{
+  background: green;
+}
+/* symbol $ its like ^ but means from the end (not 12, but 23)*/
+/* symbol * means that every that has 12 inside gonna be colored green*/
+[data-green*="12"]{
+  background: green;
+}
+
+
+[data-blue]{
+  background: blue;
 }
