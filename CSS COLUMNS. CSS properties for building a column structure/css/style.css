@@ -25,3 +25,27 @@ body {
 .text_4{
   columns: 2 200px;
 }
+
+.text_5{
+  text-align: justify;
+  columns: 2 200px;
+  column-gap: 20%;
+}
+
+.text_6{
+  columns: 2 200px;
+  column-gap: 10%;
+  column-rule: 5px solid green;
+}
+
+.text_7{
+  padding: 15px;
+  columns: 2;
+  column-gap: 50px;
+  column-rule: 5px dashed green;
+  background-color: rgb(66, 66, 66);
+
+  height: 300px;
+
+  column-fill: auto;
+}
