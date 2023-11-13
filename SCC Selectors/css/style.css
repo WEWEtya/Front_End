@@ -10,8 +10,12 @@ html,body {
 
 /* ---------------------------- */
 
-/* We can allocate a separate block in order to perform some specific actions with it
+/* And we can highlight separately child of block like "b" in "span" 
 */
-div b{
+span > b{
+  background: red;
+}
+
+li.red ~ li{
   background: red;
 }
