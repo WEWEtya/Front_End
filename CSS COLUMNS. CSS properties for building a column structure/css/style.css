@@ -9,43 +9,26 @@ body {
 }
 /* ------------------ */
 
-.text_1{
-  column-width: 200px;
+.wrapper {
+  min-height: 100%;
 }
+/* ------------------ */
 
-.text_2{
-  column-count: 3;
+.page {
+  padding: 50px 15px;
 }
+/* ------------------ */
 
-.text_3{
-  column-count: 3;
-  column-width: 200px;
-}
-
-.text_4{
+.text{
   columns: 2 200px;
-}
-
-.text_5{
-  text-align: justify;
-  columns: 2 200px;
-  column-gap: 20%;
-}
-
-.text_6{
-  columns: 2 200px;
-  column-gap: 10%;
-  column-rule: 5px solid green;
-}
-
-.text_7{
-  padding: 15px;
-  columns: 2;
   column-gap: 50px;
   column-rule: 5px dashed green;
-  background-color: rgb(66, 66, 66);
-
-  height: 300px;
-
-  column-fill: auto;
 }
+
+.text h2{
+  background-color: green;
+  padding: 15px;
+  color: #fff;
+  margin: 20px 0px;
+}
+
