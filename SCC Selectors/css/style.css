@@ -10,19 +10,18 @@ html,body {
 
 /* ---------------------------- */
 
-/* Selector * - using all what you type in CSS to all what you have in HTML*/
-div{
+/* Class red can be used with div, background red will be used only on div with class red */
+
+div.red{
   background: red;
 }
 
-span{
+/* id takes precedence over all classes, this is why span with id-blue note changing color on red regardless of the fact that it has a class of red*/
+
+#blue{
   background: blue;
 }
 
-ul{
-  background: green;
-}
-
-li{
-  background: yellow;
+.red{
+  background: red;
 }
