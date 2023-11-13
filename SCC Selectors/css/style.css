@@ -10,14 +10,8 @@ html,body {
 
 /* ---------------------------- */
 
-/* Also we can connect different structures with each other */
-
-span,
-li
-{
+/* We can allocate a separate block in order to perform some specific actions with it
+*/
+div b{
   background: red;
-}
-
-li.green{
-  background: green;
 }
