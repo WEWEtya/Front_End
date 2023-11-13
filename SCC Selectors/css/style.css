@@ -10,18 +10,14 @@ html,body {
 
 /* ---------------------------- */
 
-/* Class red can be used with div, background red will be used only on div with class red */
+/* Also we can connect different structures with each other */
 
-div.red{
+span,
+li
+{
   background: red;
 }
 
-/* id takes precedence over all classes, this is why span with id-blue note changing color on red regardless of the fact that it has a class of red*/
-
-#blue{
-  background: blue;
-}
-
-.red{
-  background: red;
+li.green{
+  background: green;
 }
